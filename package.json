@@ -1,0 +1,14 @@
+{
+  "name": "rocketset-nodejs-challenge-01",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The first challenge in Rocketseat's NodeJS course is to develop an API that handles CRUD operations for tasks and imports a .csv file, all without using any frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch .\\src\\server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

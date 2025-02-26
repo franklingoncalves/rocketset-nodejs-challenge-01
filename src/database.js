@@ -30,4 +30,20 @@ export class Database {
 
     return data;
   }
+
+  select(table, search) {
+    let data = this.#database[table] ?? [];
+
+    if (search) {
+      data = data.filter((row) => {
+        return Object.entries(search).some(([key, value]) => {
+          if (!value) return true;
+
+          return row[key].includes(value);
+        });
+      });
+    }
+
+    return data;
+  }
 }

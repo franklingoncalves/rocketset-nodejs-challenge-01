@@ -9,5 +9,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(3333, () => {
-  console.log("Server is running");
+  console.log("🚀 Server is running");
 });

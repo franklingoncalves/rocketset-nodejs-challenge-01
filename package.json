@@ -5,7 +5,7 @@
   "description": "The first challenge in Rocketseat's NodeJS course is to develop an API that handles CRUD operations for tasks and imports a .csv file, all without using any frameworks.",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch .\\src\\server.js",
+    "dev": "node --watch --env-file .env .\\src\\server.js",
     "test": "node --test --experimental-test-coverage .\\test\\*.test.js"
   },
   "keywords": [],

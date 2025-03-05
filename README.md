@@ -5,7 +5,7 @@ The first challenge in Rocketseat's NodeJS course is to develop an API that hand
 # To-Do List
 
 - [x] Use JSON as the database
-- [ ] Create a task
+- [x] Create a task
 - [ ] List all tasks
 - [ ] Update a task by ID
 - [ ] Delete a task by ID
